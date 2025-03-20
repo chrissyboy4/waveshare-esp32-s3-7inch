@@ -54,20 +54,20 @@ logger:
 ### Enable Home Assistant API
 api:
   encryption:
-    key: "01234567891011121314151617181920212223242526"
+    key: ""AIzaSyBrUrYebV8XMS4kynpvVoA164jQfHDYkUg
 
 ota:
   - platform: esphome
-    password: !secret ota_password
+    password: Seven1113.
 
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+  ssid: chrissyboy4
+  password: Seven1113.
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Waveshare-Esp32-S3-7Inch"
-    password: !secret ota_password
+    password: Seven1113.
 
 captive_portal:
 
